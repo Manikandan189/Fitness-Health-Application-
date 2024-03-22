@@ -1,0 +1,925 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">FitEra</string>
+    <string name="title_activity_home">home</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="ch">Chest</string>
+    <string name="chp">Chest Press</string>
+    <string name="idp">Incline Dumbell Press</string>
+    <string name="dbp">Decline Barbell Press</string>
+    <string name="cf">Chest Flys</string>
+    <string name="cco">Cable CrossOver(L-H)</string>
+    <string name="cco1">Cable CrossOver(H-L)</string>
+    <string name="dfs">Dumble Flys</string>
+    <string name="dip" tools:ignore="DuplicateDefinition">Dips</string>
+    <string name="sh">Shoulders</string>
+    <string name="arnold">Arnold Press</string>
+    <string name="shpr">Overhead Shoulder Press</string>
+    <string name="lara">Lateral Raises</string>
+    <string name="fara">Front Raises</string>
+    <string name="plfrra">Plate Front Raise</string>
+    <string name="shrug">Shrugs</string>
+    <string name="fapu">Face Pulls</string>
+    <string name="upro">Upright Rows</string>
+
+
+    <string name="ba">Backs</string>
+    <string name="dl">Deadlifts</string>
+    <string name="pu">Pull-Ups/Chin-Ups</string>
+    <string name="brs">BendOver Rows</string>
+    <string name="lps">Lat Pulldowns</string>
+    <string name="tbr">T-Bar Rows</string>
+    <string name="sadr">Single-Arm Dumbbell Rows</string>
+    <string name="hebe">Hyperextensions/Back Extensions</string>
+    <string name="fps">Face Pulls</string>
+
+
+    <string name="bi">Biceps</string>
+    <string name="bw1" tools:ignore="DuplicateDefinition">Barbell Bicep Curls</string>
+    <string name="bw2">Dumbbell Hammer Curls</string>
+    <string name="bw3">Preacher Curls</string>
+    <string name="bw4">Concentration Curls</string>
+    <string name="bw5">EZ Bar Curls</string>
+    <string name="bw6">Reverse Grip Barbell Curls</string>
+    <string name="bw7">Cable Curls</string>
+    <string name="bw8">Dumbbell alternative bicep Curl</string>
+
+
+    <string name="tr">triceps</string>
+    <string name="tw1">Tricep Dips</string>
+    <string name="tw2">Close-Grip Bench Press</string>
+    <string name="tw3">Tricep Pushdowns</string>
+    <string name="tw4">Skull Crushers</string>
+    <string name="tw5">Overhead Dumbbell Tricep Extension</string>
+    <string name="tw6">Tricep Kickbacks</string>
+    <string name="tw7">Diamond Push-Ups</string>
+    <string name="tw8">Cable Reverse Grip Triceps Pushdown</string>
+
+
+    <string name="ab">Abs</string>
+    <string name="aw1">Crunches</string>
+    <string name="aw2">Leg Raises</string>
+    <string name="aw3">Planks</string>
+    <string name="aw4">Russian Twists</string>
+    <string name="aw5">Bicycle Crunches</string>
+    <string name="aw6">Mountain Climbers</string>
+    <string name="aw7">Hanging Leg Raises</string>
+    <string name="aw8">Reverse Crunches</string>
+
+
+    <string name="fo">forearms</string>
+    <string name="fw1">Dumbbell Wrist Curls</string>
+    <string name="fw2">Dumbbell Reverse Wrist Curls</string>
+    <string name="fw3">Farmer Walks</string>
+    <string name="fw4">Plate Pinch Holds</string>
+    <string name="fw5">Forearms-Barbell Behind The Back Wrist Curl</string>
+    <string name="fw6">Reverse Curls</string>
+    <string name="fw7">Dumbbell Seated Neutral Wrist Curl</string>
+    <string name="fw8">Dumbbell Alternate Biceps Curl</string>
+
+
+    <string name="le">Legs</string>
+    <string name="lw1">Barbell Squats</string>
+    <string name="lw2">Front Squats</string>
+    <string name="lw3">Lunges</string>
+    <string name="lw4">Leg Press</string>
+    <string name="lw5">Leg Extensions</string>
+    <string name="lw6">Romanian Deadlifts</string>
+    <string name="lw7">Calf Raises</string>
+    <string name="lw8">Bulgarian Split Squats</string>
+
+
+    <string name="title_activity_cheast">cheast</string>
+    <string name="your_bold_string">This is a <strong>bold</strong> string.</string>
+
+    <string name="large_text">
+Sets and Reps:
+
+\n\nRecommended for muscle growth: 3-4 sets of 8-12 reps.
+\n\nFor strength development: 4-5 sets of 6-8 reps.
+\n\nRest Time:
+\n\nRest for 60-90 seconds between sets.
+           </string>
+    <string name="shoulder">Sets and Reps:\n\nRecommended for muscle growth: 3-4 sets of 8-12 reps.\n\nFor strength development: 4-5 sets of 6-8 reps.\n\nRest Time:\n\nRest for 60-90 seconds between sets.
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="title_activity_chest">chest</string>
+    <string name="title_activity_shoulder">shoulder</string>
+    <string name="title_activity_back">Back</string>
+    <string name="title_activity_back1">back1</string>
+    <string name="title_activity_biceps1">biceps1</string>
+    <string name="title_activity_triceps1">triceps1</string>
+    <string name="title_activity_forearms1">forearms1</string>
+    <string name="title_activity_abs1">abs1</string>
+    <string name="title_activity_legs1">legs1</string>
+    <string name="fiterac">Fitness Calculator</string>
+    <string name="pro">High Protein-Rich Foods</string>
+    <string name="carb">High Carbohydrate Foods</string>
+    <string name="fat">High Fat-Rich Foods</string>
+    <string name="fib">High Fiber-Rich Foods</string>
+    <string name="wat">Water Content-Rich Foods</string>
+    <string name="title_activity_foodprot1">foodprot1</string>
+
+
+    <string name="chiken">Chicken Breast</string>
+    <string name="benifit">Benifits</string>
+    <string name="b1">Excellent source of lean protein, essential for muscle repair and growth.</string>
+    <string name="how">How To Take</string>
+    <string name="h1">Grill or bake for a healthy, protein-packed meal.</string>
+    <string name="nutri">nutritional information (per 100g)</string>
+    <string name="nutr1">
+         Protein: 31g\n\n
+         Carbohydrate: 0g\n\n
+         Fiber: 0g\n\n
+         Calories: 165\n\n
+         Fat: 3.6g\n\n
+         Water: 73%\n\n\n\n</string>
+
+
+    <string name="greek_yogurt">Greek Yogurt</string>
+    <string name="g1">Rich in protein and probiotics, supporting gut health and digestion.</string>
+    <string name="hg1">Enjoy with fruits or nuts as a nutritious breakfast or snack.</string>
+    <string name="nutrient_info_gy">
+         Protein: 10g\n\n
+         Carbohydrate: 3.6g\n\n
+         Fiber: 0g\n\n
+         Calories: 59\n\n
+         Fat: 3.3g\n\n
+         Water: 88%\n\n\n\n</string>
+
+    <string name="quinoa">Quinoa</string>
+    <string name="q1">Contains all essential amino acids, ideal for vegetarians and vegans.</string>
+    <string name="hq1">Use as a base for salads or as a side dish.</string>
+    <string name="nutrient_info_q">
+         Protein: 14g\n\n
+         Carbohydrate: 64g\n\n
+         Fiber: 7g\n\n
+         Calories: 120\n\n
+         Fat: 1.9g\n\n
+         Water: 13%\n\n\n\n</string>
+
+
+    <string name="eggs">Eggs</string>
+    <string name="eggs_benefits">High-quality protein, rich in vitamins (B12, D), and minerals (selenium).</string>
+    <string name="eggs_how_to_take">Boil, scramble, or make an omelet for a versatile protein source.</string>
+    <string name="eggs_nutritional_info">
+    Protein: 13g\n\n
+    Carbohydrate: 1.1g\n\n
+    Fiber: 0g\n\n
+    Calories: 155\n\n
+    Fat: 11g\n\n
+    Water: 75%\n\n\n\n
+</string>
+
+
+    <string name="lentils">Lentils</string>
+    <string name="lentils_benefits">High protein and fiber content, low in fat, excellent for heart health.</string>
+    <string name="lentils_how_to_take">Add to soups, stews, or make lentil-based dishes.</string>
+    <string name="lentils_nutritional_info">
+    Protein: 9g\n\n
+    Carbohydrate: 20g\n\n
+    Fiber: 8g\n\n
+    Calories: 116\n\n
+    Fat: 0.4g\n\n
+    Water: 73%\n\n\n\n
+</string>
+
+
+    <string name="salmon">Salmon</string>
+    <string name="salmon_benefits">Omega-3 fatty acids support heart health and high-quality protein.</string>
+    <string name="salmon_how_to_take">Grill or bake for a delicious and nutritious main course.</string>
+    <string name="salmon_nutritional_info">
+    Protein: 25g\n\n
+    Carbohydrate: 0g\n\n
+    Fiber: 0g\n\n
+    Calories: 206\n\n
+    Fat: 13g\n\n
+    Water: 60%\n\n\n\n
+</string>
+
+
+    <string name="cottage_cheese">Cottage Cheese</string>
+    <string name="cottage_cheese_benefits">Slow-digesting protein aids in muscle maintenance.</string>
+    <string name="cottage_cheese_how_to_take">Eat as a snack, mix with fruits, or use in salads.</string>
+    <string name="cottage_cheese_nutritional_info">
+    Protein: 11g\n\n
+    Carbohydrate: 3.4g\n\n
+    Fiber: 0g\n\n
+    Calories: 98\n\n
+    Fat: 4g\n\n
+    Water: 79%\n\n\n\n
+</string>
+
+
+    <string name="almonds">Almonds</string>
+    <string name="almonds_benefits">Protein, healthy fats, and vitamin E for overall health.</string>
+    <string name="almonds_how_to_take">Enjoy as a snack or add to yogurt and salads.</string>
+    <string name="almonds_nutritional_info">
+    Protein: 21g\n\n
+    Carbohydrate: 22g\n\n
+    Fiber: 12g\n\n
+    Calories: 576\n\n
+    Fat: 49g\n\n
+    Water: 4%\n\n\n\n
+</string>
+
+
+    <string name="tofu">Tofu</string>
+    <string name="tofu_benefits">Plant-based protein, suitable for vegetarians.</string>
+    <string name="tofu_how_to_take">Stir-fry, grill, or use in smoothies and salads.</string>
+    <string name="tofu_nutritional_info">
+    Protein: 8g\n\n
+    Carbohydrate: 2g\n\n
+    Fiber: 0g\n\n
+    Calories: 144\n\n
+    Fat: 8g\n\n
+    Water: 84%\n\n\n\n
+</string>
+
+
+    <string name="turkey">Turkey</string>
+    <string name="turkey_benefits">Lean protein source, supports muscle development.</string>
+    <string name="turkey_how_to_take">Roast, grill, or use in sandwiches for a lean protein boost.</string>
+    <string name="turkey_nutritional_info">
+    Protein: 29g\n\n
+    Carbohydrate: 0g\n\n
+    Fiber: 0g\n\n
+    Calories: 135\n\n
+    Fat: 3g\n\n
+    Water: 67%\n\n\n\n
+</string>
+
+
+    <string name="oats">Oats</string>
+    <string name="oats_benefits">Soluble fiber for heart health, helps regulate blood sugar.</string>
+    <string name="oats_how_to_take">Make oatmeal, granola, or add to smoothies.</string>
+    <string name="oats_nutritional_info">
+    Protein: 11g\n\n
+    Carbohydrate: 60g\n\n
+    Fiber: 10g\n\n
+    Calories: 389\n\n
+    Fat: 6.9g\n\n
+    Water: 8%\n\n\n\n
+</string>
+
+
+    <string name="broccoli">Broccoli</string>
+    <string name="broccoli_benefits">High fiber, rich in vitamins (C, K), and antioxidants.</string>
+    <string name="broccoli_how_to_take">Steam, roast, or add to salads for a nutritious side.</string>
+    <string name="broccoli_nutritional_info">
+    Protein: 2.8g\n\n
+    Carbohydrate: 11g\n\n
+    Fiber: 5.1g\n\n
+    Calories: 55\n\n
+    Fat: 0.6g\n\n
+    Water: 89%\n\n\n\n
+</string>
+
+
+    <string name="chia_seeds">Chia Seeds</string>
+    <string name="chia_seeds_benefits">Excellent source of soluble fiber and omega-3 fatty acids.</string>
+    <string name="chia_seeds_how_to_take">Mix with yogurt, pudding, or add to smoothies.</string>
+    <string name="chia_seeds_nutritional_info">
+    Protein: 16.5g\n\n
+    Carbohydrate: 42.1g\n\n
+    Fiber: 34.4g\n\n
+    Calories: 486\n\n
+    Fat: 30.7g\n\n
+    Water: 6%\n\n\n\n
+</string>
+
+
+    <string name="avocado">Avocado</string>
+    <string name="avocado_benefits">Healthy monounsaturated fats, good for heart health.</string>
+    <string name="avocado_how_to_take">Slice onto salads, toast, or blend into smoothies.</string>
+    <string name="avocado_nutritional_info">
+    Protein: 2g\n\n
+    Carbohydrate: 8.5g\n\n
+    Fiber: 6.7g\n\n
+    Calories: 160\n\n
+    Fat: 14.7g\n\n
+    Water: 73%\n\n\n\n
+</string>
+
+
+    <string name="black_beans">Black Beans</string>
+    <string name="black_beans_benefits">High in fiber, protein, and various nutrients.</string>
+    <string name="black_beans_how_to_take">Include in soups, salads, or make bean-based dishes.</string>
+    <string name="black_beans_nutritional_info">
+    Protein: 8.9g\n\n
+    Carbohydrate: 20.4g\n\n
+    Fiber: 8.7g\n\n
+    Calories: 132\n\n
+    Fat: 0.5g\n\n
+    Water: 66%\n\n\n\n
+</string>
+
+
+    <string name="sweet_potatoes">Sweet Potatoes</string>
+    <string name="sweet_potatoes_benefits">Fibrous carbs provide sustained energy.</string>
+    <string name="sweet_potatoes_how_to_take">Roast, mash, or use in soups for a nutritious side.</string>
+    <string name="sweet_potatoes_nutritional_info">
+    Protein: 1.6g\n\n
+    Carbohydrate: 20.7g\n\n
+    Fiber: 3g\n\n
+    Calories: 86\n\n
+    Fat: 0.2g\n\n
+    Water: 77%\n\n\n\n
+</string>
+
+
+    <string name="berries_raspberries">Berries (Raspberries)</string>
+    <string name="berries_raspberries_benefits">High in fiber and antioxidants.</string>
+    <string name="berries_raspberries_how_to_take">Add to yogurt, oatmeal, or enjoy as a snack.</string>
+    <string name="berries_raspberries_nutritional_info">
+    Protein: 1.2g\n\n
+    Carbohydrate: 11.9g\n\n
+    Fiber: 6.5g\n\n
+    Calories: 52\n\n
+    Fat: 0.7g\n\n
+    Water: 86%\n\n\n\n
+</string>
+
+
+    <string name="popcorn_air_popped">Popcorn (Air-Popped)</string>
+    <string name="popcorn_air_popped_benefits">Low-calorie, high-fiber snack option.</string>
+    <string name="popcorn_air_popped_how_to_take">Air-pop and season with spices for a healthy treat.</string>
+    <string name="popcorn_air_popped_nutritional_info">
+    Protein: 12.5g\n\n
+    Carbohydrate: 56.6g\n\n
+    Fiber: 14.5g\n\n
+    Calories: 387\n\n
+    Fat: 4.3g\n\n
+    Water: 4%\n\n\n\n
+</string>
+
+
+    <string name="whole_wheat_bread">Whole Wheat Bread</string>
+    <string name="whole_wheat_bread_benefits">Fiber-rich alternative to white bread.</string>
+    <string name="whole_wheat_bread_how_to_take">Use for sandwiches or toast for breakfast.</string>
+    <string name="whole_wheat_bread_nutritional_info">
+    Protein: 10.1g\n\n
+    Carbohydrate: 49.1g\n\n
+    Fiber: 7.6g\n\n
+    Calories: 247\n\n
+    Fat: 2.7g\n\n
+    Water: 37%\n\n\n\n
+</string>
+
+
+    <string name="brussels_sprouts">Brussels Sprouts</string>
+    <string name="brussels_sprouts_benefits">High fiber content, supports digestive health.</string>
+    <string name="brussels_sprouts_how_to_take">Roast, sauté, or add to salads for a tasty side.</string>
+    v
+    <string name="brussels_sprouts_nutritional_info">
+    Protein: 3.4g\n\n
+    Carbohydrate: 8g\n\n
+    Fiber: 3.8g\n\n
+    Calories: 43\n\n
+    Fat: 0.3g\n\n
+    Water: 87%\n\n\n\n
+</string>
+
+
+    <string name="olive_oil">Olive Oil</string>
+    <string name="olive_oil_benefits">Rich in monounsaturated fats and antioxidants.</string>
+    <string name="olive_oil_how_to_take">Use as a dressing or for cooking.</string>
+    <string name="olive_oil_nutritional_info">
+    Protein: 0g\n\n
+    Carbohydrate: 0g\n\n
+    Fiber: 0g\n\n
+    Calories: 884\n\n
+    Fat: 100g\n\n
+    Water: 0%\n\n\n\n
+</string>
+
+
+    <string name="nuts">Nuts (e.g., Walnuts)</string>
+    <string name="nuts_benefits">Omega-3 fatty acids support brain health.</string>
+    <string name="nuts_how_to_take">Eat as a snack, add to salads, or use in baking.</string>
+    <string name="nuts_nutritional_info">
+    Protein: 15.2g\n\n
+    Carbohydrate: 13.7g\n\n
+    Fiber: 6.7g\n\n
+    Calories: 654\n\n
+    Fat: 65.2g\n\n
+    Water: 5%\n\n\n\n
+</string>
+
+
+    <string name="fatty_fish">Fatty Fish (e.g., Mackerel)</string>
+    <string name="fatty_fish_benefits">Omega-3s for heart health and high-quality protein.</string>
+    <string name="fatty_fish_how_to_take">Grill or bake for a nutritious main course.</string>
+    <string name="fatty_fish_nutritional_info">
+    Protein: 19g\n\n
+    Carbohydrate: 0g\n\n
+    Fiber: 0g\n\n
+    Calories: 305\n\n
+    Fat: 25g\n\n
+    Water: 60%\n\n\n\n
+</string>
+
+
+    <string name="dark_chocolate">Dark Chocolate (Moderate Amounts)</string>
+    <string name="dark_chocolate_benefits">Contains healthy fats and antioxidants.</string>
+    <string name="dark_chocolate_how_to_take">Enjoy in moderation as a sweet treat.</string>
+    <string name="dark_chocolate_nutritional_info">
+    Protein: 5.3g\n\n
+    Carbohydrate: 60.5g\n\n
+    Fiber: 7.1g\n\n
+    Calories: 546\n\n
+    Fat: 32.1g\n\n
+    Water: 1%\n\n\n\n
+</string>
+
+
+    <string name="coconut_oil">Coconut Oil</string>
+    <string name="coconut_oil_benefits">Medium-chain triglycerides (MCTs), easily digestible fats.</string>
+    <string name="coconut_oil_how_to_take">Use for cooking or in smoothies.</string>
+    <string name="coconut_oil_nutritional_info">
+    Protein: 0g\n\n
+    Carbohydrate: 0g\n\n
+    Fiber: 0g\n\n
+    Calories: 862\n\n
+    Fat: 100g\n\n
+    Water: 0%\n\n\n\n
+</string>
+
+
+    <string name="flaxseeds">Flaxseeds</string>
+    <string name="flaxseeds_benefits">Omega-3 fatty acids, fiber, and lignans.</string>
+    <string name="flaxseeds_how_to_take">Add to yogurt, oatmeal, or smoothies.</string>
+    <string name="flaxseeds_nutritional_info">
+    Protein: 18.3g\n\n
+    Carbohydrate: 28.9g\n\n
+    Fiber: 27.3g\n\n
+    Calories: 534\n\n
+    Fat: 42.2g\n\n
+    Water: 8%\n\n\n\n
+</string>
+
+
+    <string name="cheese">Cheese</string>
+    <string name="cheese_benefits">Good source of healthy fats and calcium.</string>
+    <string name="cheese_how_to_take">Enjoy in moderation as a snack or in dishes.</string>
+    <string name="cheese_nutritional_info">
+    Protein: 25g\n\n
+    Carbohydrate: 1.3g\n\n
+    Fiber: 0g\n\n
+    Calories: 403\n\n
+    Fat: 33g\n\n
+    Water: 37%\n\n\n\n
+</string>
+
+
+    <string name="full_fat_yogurt">Full-Fat Yogurt</string>
+    <string name="full_fat_yogurt_benefits">Satiety, probiotics, and healthy fats.</string>
+    <string name="full_fat_yogurt_how_to_take">Eat as a snack or incorporate into smoothies.</string>
+    <string name="full_fat_yogurt_nutritional_info">
+    Protein: 5g\n\n
+    Carbohydrate: 4.7g\n\n
+    Fiber: 0g\n\n
+    Calories: 61\n\n
+    Fat: 3.3g\n\n
+    Water: 75%\n\n\n\n
+</string>
+
+
+    <string name="brown_rice">Brown Rice</string>
+    <string name="brown_rice_benefits">Complex carbs provide sustained energy.</string>
+    <string name="brown_rice_how_to_take">Serve as a side dish or base for stir-fries.</string>
+    <string name="brown_rice_nutritional_info">
+    Protein: 7.9g\n\n
+    Carbohydrate: 77.2g\n\n
+    Fiber: 3.5g\n\n
+    Calories: 111\n\n
+    Fat: 0.9g\n\n
+    Water: 9%\n\n\n\n
+</string>
+
+
+    <string name="bananas">Bananas</string>
+    <string name="bananas_benefits">Simple carbs for quick energy, potassium.</string>
+    <string name="bananas_how_to_take">Eat as a snack or add to smoothies.</string>
+    <string name="bananas_nutritional_info">
+    Protein: 1.3g\n\n
+    Carbohydrate: 27.1g\n\n
+    Fiber: 3.1g\n\n
+    Calories: 89\n\n
+    Fat: 0.3g\n\n
+    Water: 74%\n\n\n\n
+</string>
+
+
+    <string name="chickpeas">Chickpeas</string>
+    <string name="chickpeas_benefits">Complex carbs, protein, and fiber.</string>
+    <string name="chickpeas_how_to_take">Include in salads, make hummus, or roast for a crunchy snack.</string>
+    <string name="chickpeas_nutritional_info">
+    Protein: 8.9g\n\n
+    Carbohydrate: 27.4g\n\n
+    Fiber: 7.6g\n\n
+    Calories: 164\n\n
+    Fat: 2.6g\n\n
+    Water: 60%\n\n\n\n
+</string>
+
+
+    <string name="fiteracc">Fitness Calculator</string>
+    <string name="apples">Apples</string>
+    <string name="apples_benefits">Simple carbs, fiber, and antioxidants.</string>
+    <string name="apples_how_to_take">Eat whole or slice into salads and oatmeal.</string>
+    <string name="apples_nutritional_info">
+    Protein: 0.3g\n\n
+    Carbohydrate: 14g\n\n
+    Fiber: 2.4g\n\n
+    Calories: 52\n\n
+    Fat: 0.2g\n\n
+    Water: 86%\n\n\n\n
+
+
+</string>
+
+
+    <string name="cucumber">Cucumber</string>
+    <string name="cucumber_benefits">Hydration, low in calories.</string>
+    <string name="cucumber_how_to_take">Slice into salads or enjoy as a refreshing snack.</string>
+    <string name="cucumber_nutritional_info">
+    Protein: 0.7g\n\n
+    Carbohydrate: 3.6g\n\n
+    Fiber: 0.5g\n\n
+    Calories: 15\n\n
+    Fat: 0.2g\n\n
+    Water: 95%\n\n\n\n
+</string>
+
+
+    <string name="watermelon">Watermelon</string>
+    <string name="watermelon_benefits">Hydration, contains vitamins (A, C), and antioxidants.</string>
+    <string name="watermelon_how_to_take">Eat as a refreshing snack or blend into smoothies.</string>
+    <string name="watermelon_nutritional_info">
+    Protein: 0.6g\n\n
+    Carbohydrate: 8.5g\n\n
+    Fiber: 0.4g\n\n
+    Calories: 30\n\n
+    Fat: 0.2g\n\n
+    Water: 92%\n\n\n\n
+</string>
+
+
+    <string name="celery">Celery</string>
+    <string name="celery_benefits">High water content, low-calorie snack.</string>
+    <string name="celery_how_to_take">Eat raw, or spread with peanut butter for a healthy snack.</string>
+    <string name="celery_nutritional_info">
+    Protein: 0.7g\n\n
+    Carbohydrate: 2.9g\n\n
+    Fiber: 1.6g\n\n
+    Calories: 16\n\n
+    Fat: 0.2g\n\n
+    Water: 95%\n\n\n\n
+</string>
+
+
+    <string name="strawberries">Strawberries</string>
+    <string name="strawberries_benefits">Hydration, rich in vitamin C and antioxidants.</string>
+    <string name="strawberries_how_to_take">Add to yogurt, salads, or enjoy on their own.</string>
+    <string name="strawberries_nutritional_info">
+    Protein: 0.7g\n\n
+    Carbohydrate: 7.7g\n\n
+    Fiber: 2g\n\n
+    Calories: 32\n\n
+    Fat: 0.3g\n\n
+    Water: 91%\n\n\n\n
+</string>
+
+
+    <string name="lettuce">Lettuce</string>
+    <string name="lettuce_benefits">High water content, low-calorie leafy green.</string>
+    <string name="lettuce_how_to_take">Use as a base for salads or wraps.</string>
+    <string name="lettuce_nutritional_info">
+    Protein: 1.4g\n\n
+    Carbohydrate: 2.9g\n\n
+    Fiber: 1.3g\n\n
+    Calories: 5\n\n
+    Fat: 0.1g\n\n
+    Water: 95%\n\n\n\n
+</string>
+
+
+    <string name="oranges">Oranges</string>
+    <string name="oranges_benefits">Hydration, vitamin C, and fiber.</string>
+    <string name="oranges_how_to_take">Eat whole or squeeze into fresh juice.</string>
+    <string name="oranges_nutritional_info">
+    Protein: 1g\n\n
+    Carbohydrate: 8.3g\n\n
+    Fiber: 2.2g\n\n
+    Calories: 43\n\n
+    Fat: 0.2g\n\n
+    Water: 87%\n\n\n\n
+</string>
+
+
+    <string name="grapefruit">Grapefruit</string>
+    <string name="grapefruit_benefits">Hydration, supports weight loss.</string>
+    <string name="grapefruit_how_to_take">Eat as a snack or add to salads.</string>
+    <string name="grapefruit_nutritional_info">
+    Protein: 0.6g\n\n
+    Carbohydrate: 8.1g\n\n
+    Fiber: 1.1g\n\n
+    Calories: 33\n\n
+    Fat: 0.2g\n\n
+    Water: 88%\n\n\n\n
+</string>
+
+
+    <string name="zucchini">Zucchini</string>
+    <string name="zucchini_benefits">High water content, low in calories.</string>
+    <string name="zucchini_how_to_take">Spiralize for a low-carb pasta alternative or sauté as a side dish.</string>
+    <string name="zucchini_nutritional_info">
+    Protein: 1.2g\n\n
+    Carbohydrate: 3.1g\n\n
+    Fiber: 1g\n\n
+    Calories: 17\n\n
+    Fat: 0.3g\n\n
+    Water: 95%\n\n\n\n
+</string>
+
+
+    <string name="bell_peppers">Bell Peppers</string>
+    <string name="bell_peppers_benefits">Hydration, rich in vitamins (A, C), and antioxidants.</string>
+    <string name="bell_peppers_how_to_take">Enjoy raw in salads, or cook in stir-fries.</string>
+    <string name="bell_peppers_nutritional_info">
+    Protein: 0.9g\n\n
+    Carbohydrate: 6g\n\n
+    Fiber: 1.7g\n\n
+    Calories: 31\n\n
+    Fat: 0.3g\n\n
+    Water: 92%\n\n\n\n
+</string>
+
+
+    <string name="tomatoes">Tomatoes</string>
+    <string name="tomatoes_benefits">Hydration, antioxidants, and vitamins.</string>
+    <string name="tomatoes_how_to_take">Add to salads, sandwiches, or use in cooking.</string>
+    <string name="tomatoes_nutritional_info">
+    Protein: 0.9g\n\n
+    Carbohydrate: 3.9g\n\n
+    Fiber: 1.2g\n\n
+    Calories: 18\n\n
+    Fat: 0.2g\n\n
+    Water: 94%\n\n\n\n
+</string>
+
+
+    <string name="warm">Warm-up</string>
+    <string name="howtd">How to Do</string>
+    <string name="cburn">Caloric Burn (10 minutes)</string>
+    <string name="ben">Benefits</string>
+    <string name="dperd">Duration per Day</string>
+    <string name="time">Timing</string>
+
+
+    <string name="running_jogging">Running / Jogging</string>
+    <string name="running_jogging_warmup">Dynamic stretches (leg swings, arm circles) and light jogging for 5-10 minutes\n</string>
+    <string name="running_jogging_howtodo">Find a comfortable pace, use proper running shoes, and maintain good form\n</string>
+    <string name="running_jogging_calories">Approximately 100-120 calorie\n</string>
+    <string name="running_jogging_benifits">Improved cardiovascular health, weight management, enhanced mood\n</string>
+    <string name="running_jogging_duration">Start with 20-30 minutes and progress\n</string>
+    <string name="running_jogging_time">Morning or evening, based on personal preference\n\n</string>
+
+
+    <string name="cycling">Cycling</string>
+    <string name="cycling_warmup">Start with light cycling or dynamic leg stretches\n</string>
+    <string name="cycling_howtodo">Adjust the bike for proper fit, maintain a steady pace, and use proper cycling technique\n</string>
+    <string name="cycling_calories">Approximately 70-80 calories\n</string>
+    <string name="cycling_benifits">Low-impact cardiovascular exercise, leg strength, and stamina\n</string>
+    <string name="cycling_duration">Aim for 30 minutes to an hour for a moderate workout\n</string>
+    <string name="cycling_time">Morning or evening, depending on preference and schedule\n\n</string>
+
+
+    <string name="swimming">Swimming</string>
+    <string name="swimming_warmup">Swim at a slow pace and include arm and leg stretches\n</string>
+    <string name="swimming_howtodo">Learn proper swimming techniques, start with basic strokes, and gradually increase intensity\n</string>
+    <string name="swimming_calories">Approximately 80-100 calories\n</string>
+    <string name="swimming_benifits">Full-body workout, improved lung capacity, low-impact exercise\n</string>
+    <string name="swimming_duration">Start with 20-30 minutes and progress\n</string>
+    <string name="swimming_time">Morning or evening, depending on availability\n\n</string>
+
+
+    <string name="jump_rope">Jump Rope</string>
+    <string name="jump_rope_warmup">Jump at a slow pace and include ankle and wrist circles\n</string>
+    <string name="jump_rope_howtodo">Use a proper-sized rope, maintain good posture, and start with basic jumps\n</string>
+    <string name="jump_rope_calories">Approximately 100-120 calories\n</string>
+    <string name="jump_rope_benifits">Cardiovascular fitness, coordination, and agility\n</string>
+    <string name="jump_rope_duration">Start with 10-15 minutes and increase gradually\n</string>
+    <string name="jump_rope_time">Morning or evening, depending on preference\n\n</string>
+
+
+    <string name="hiit">High-Intensity Interval Training (HIIT)</string>
+    <string name="hiit_warmup">Include dynamic stretches and light aerobic activity\n</string>
+    <string name="hiit_howtodo">Alternate between short bursts of intense exercise and rest periods\n</string>
+    <string name="hiit_calories">Approximately 100-150 calories\n</string>
+    <string name="hiit_benifits">Efficient calorie burning, improved cardiovascular fitness, and time-effective\n</string>
+    <string name="hiit_duration">15-30 minutes, including intervals\n</string>
+    <string name="hiit_time">Morning or evening, depending on preference\n\n</string>
+
+
+    <string name="rowing">Rowing</string>
+    <string name="rowing_warmup">Perform light rowing or dynamic stretches\n</string>
+    <string name="rowing_howtodo">Learn proper rowing technique, maintain good posture, and use a controlled motion\n</string>
+    <string name="rowing_calories">Approximately 70-90 calories\n</string>
+    <string name="rowing_benifits">Full-body workout, low-impact, and improves cardiovascular health\n</string>
+    <string name="rowing_duration">Start with 15-20 minutes and progress\n</string>
+    <string name="rowing_time">Morning or evening, depending on preference\n\n</string>
+
+
+    <string name="elliptical_trainer">Elliptical Trainer</string>
+    <string name="elliptical_trainer_warmup">Begin with light elliptical activity and include dynamic stretches\n</string>
+    <string name="elliptical_trainer_howtodo">Use proper form, adjust resistance as needed, and maintain a steady pace\n</string>
+    <string name="elliptical_trainer_calories">Approximately 80-100 calories\n</string>
+    <string name="elliptical_trainer_benifits">Low-impact cardiovascular exercise, works multiple muscle groups\n</string>
+    <string name="elliptical_trainer_duration">Aim for 30 minutes to an hour\n</string>
+    <string name="elliptical_trainer_time">Morning or evening, based on preference\n\n</string>
+
+
+    <string name="dancing">Dancing</string>
+    <string name="dancing_warmup">Dance at a slow pace, incorporating various dance moves\n</string>
+    <string name="dancing_howtodo">Choose dance styles you enjoy, follow instructional videos if needed\n</string>
+    <string name="dancing_calories">Approximately 60-90 calories (varies with intensity)\n</string>
+    <string name="dancing_benifits">Cardiovascular fitness, improved coordination, and mood enhancement\n</string>
+    <string name="dancing_duration">Start with 20-30 minutes and increase\n</string>
+    <string name="dancing_time">Evening is popular, but any time based on personal preference\n\n</string>
+
+
+    <string name="boxing">Boxing</string>
+    <string name="boxing_warmup"><b>Shadow</b>> boxing, light punches, and dynamic stretches\n</string>
+    <string name="boxing_howtodo">Learn basic boxing stance, punches, and footwork\n</string>
+    <string name="boxing_calories">Approximately 100-120 calories\n</string>
+    <string name="boxing_benifits">Cardiovascular workout, stress relief, and improved agility\n</string>
+    <string name="boxing_duration">Start with 15-30 minutes and progress\n</string>
+    <string name="boxing_time">Morning or evening, based on preference\n\n</string>
+
+
+    <string name="hiking">Hiking</string>
+    <string name="hiking_warmup">Begin with a brisk walk and light stretches\n</string>
+    <string name="hiking_howtodo">Choose varied terrains, wear appropriate footwear, and pace yourself\n</string>
+    <string name="hiking_calories">Approximately 70-90 calories\n</string>
+    <string name="hiking_benifits">Cardiovascular exercise, improved mood, and connection with nature\n</string>
+    <string name="hiking_duration">Start with 30 minutes to an hour\n</string>
+    <string name="hiking_time">Morning or daytime for safety and enjoyment\n\n\n</string>
+
+    <string name="nutr">Nurtitions</string>
+
+
+    <string name="carbo">Carbohydrates</string>
+    <string name="protein">Proteins</string>
+    <string name="fats">Fats</string>
+    <string name="calories">Calories</string>
+    <string name="vitamin1">Vitamins</string>
+    <string name="mineral">Minerals</string>
+    <string name="water">Water</string>
+    <string name="diet">Dietary Fiber</string>
+    <string name="antio">Antioxidants</string>
+    <string name="probio">Probiotics</string>
+    <string name="pre">Prebiotics</string>
+    <string name="ess">Essential Fatty Acids</string>
+
+
+    <string name="does">What it does :</string>
+    <string name="processed">How is processed in our body:</string>
+    <string name="per">How much can we take per day:</string>
+    <string name="take">How to take:</string>
+
+
+    <string name="what">Whats is Carbohydrates ?</string>
+    <string name="what1">Carbohydrates are organic compounds consisting of carbon, hydrogen, and oxygen. They are classified into simple carbohydrates (sugars) and complex carbohydrates (starches and fiber)</string>
+    <string name="does1">Carbohydrates serve as the primary and preferred source of energy for the body. Glucose, the product of carbohydrate breakdown, is essential for fueling cellular processes, especially in the brain and muscles.</string>
+    <string name="processed1">During digestion, complex carbohydrates are broken down into simple sugars (glucose, fructose, and galactose), which are then absorbed into the bloodstream. Insulin, a hormone produced by the pancreas, helps cells take up glucose for energy or storage in the liver and muscles.</string>
+    <string name="per1">The Dietary Guidelines for Americans recommend that 45-65% of daily caloric intake should come from carbohydrates. For adults, the recommended daily intake is around 130 grams, but individual needs vary based on factors such as age, gender, activity level, and overall health.</string>
+    <string name="take1"> Prioritize whole, unprocessed carbohydrates from sources like fruits, vegetables, whole grains, and legumes. Limit the intake of added sugars from processed foods and beverages\n\n\n\n</string>
+
+
+    <string name="what2">What is Protein?</string>
+    <string name="what3">Proteins are complex macromolecules composed of amino acids, which are crucial for building and repairing tissues in the body.</string>
+    <string name="does2">Proteins play essential roles in immune function, enzyme production, and the structure of muscles, organs, and skin. They also serve as a source of energy when needed.</string>
+    <string name="processed2">During digestion, proteins are broken down into individual amino acids, which are then absorbed into the bloodstream and used for various physiological functions, including the synthesis of new proteins.</string>
+    <string name="per2">The Recommended Dietary Allowance (RDA) for protein is approximately 0.8 grams per kilogram of body weight for adults. However, individual protein needs can vary based on factors such as age, activity level, and health status.</string>
+    <string name="take2">Include a variety of protein sources in your diet, such as lean meats, poultry, fish, eggs, dairy products, legumes, and plant-based options like tofu and tempeh\n\n\n\n.</string>
+
+
+    <string name="what4">What is Fat?</string>
+    <string name="what5">Fats are organic molecules that are a concentrated source of energy, consisting of fatty acids and glycerol.</string>
+    <string name="does3">Fats are essential for energy storage, hormone production, cell structure, and the absorption of fat-soluble vitamins (A, D, E, K). They also provide insulation and protection for organs.</string>
+    <string name="processed3">Dietary fats are broken down into fatty acids and glycerol during digestion. These components are then absorbed into the bloodstream and used for energy or stored in adipose tissue.</string>
+    <string name="per3">The Dietary Guidelines recommend that 20-35% of daily caloric intake should come from fats. Its important to limit saturated and trans fats while prioritizing sources of monounsaturated and polyunsaturated fats.</string>
+    <string name="take3">Choose healthy fat sources, including avocados, nuts, seeds, olive oil, and fatty fish. Limit the consumption of processed and fried foods high in unhealthy fats.\n\n\n\n</string>
+
+
+    <!-- Vitamins -->
+    <string name="vitamin">What are Vitamins?</string>
+    <string name="vitamin11">Vitamins are organic compounds that play crucial roles in various physiological functions. They are divided into water-soluble (e.g., vitamin C, B-complex) and fat-soluble (e.g., vitamin A, D, E, K) categories.</string>
+    <string name="vitamin_types">Types of Vitamins:</string>
+
+    <!-- Vitamin A -->
+    <string name="vitaminusa">Use of Vitamin A</string>
+    <string name="vitaminusa1">Essential for vision, immune function, skin health, and cell differentiation.</string>
+
+    <!-- Vitamin B-Complex -->
+    <string name="vitaminb">Use of Vitamin B-Complex</string>
+    <string name="vitaminb1">Supports energy metabolism, red blood cell formation, DNA synthesis, and nerve function.</string>
+
+    <!-- Vitamin C -->
+    <string name="vitaminc">Use of Vitamin C</string>
+    <string name="vitaminc1">Acts as an antioxidant, supports immune function, and is crucial for collagen synthesis.</string>
+
+    <!-- Vitamin D -->
+    <string name="vitamind">Use of Vitamin D</string>
+    <string name="vitamind1">Facilitates calcium absorption for bone health and supports immune function.</string>
+
+    <!-- Vitamin E -->
+    <string name="vitamine">Use of Vitamin E</string>
+    <string name="vitamine1">Acts as an antioxidant, protects cell membranes, and supports immune function.</string>
+
+    <!-- Vitamin K -->
+    <string name="vitamink">Use of Vitamin K</string>
+    <string name="vitamink1">Essential for blood clotting, bone metabolism, and heart health.</string>
+
+    <string name="vitamindo">What Vitamins Does?</string>
+    <string name="vitamindo1">Each vitamin has specific functions. For instance, vitamin C is essential for collagen synthesis and supports the immune system, while vitamin D is crucial for calcium absorption and bone health.</string>
+
+    <string name="vitamin_processed">How Vitamins are Processed?</string>
+    <string name="vitamin_processed1">Vitamins are absorbed during digestion and participate in a range of biochemical reactions. Some act as coenzymes, facilitating enzymatic processes, while others contribute to structural integrity.</string>
+
+    <string name="vitamin_howmuch">How Much Vitamins Can We Take Per Day?</string>
+    <string name="vitamin_howmuch1">Recommended daily allowances (RDAs) vary for each vitamin. Adequate intake depends on factors such as age, gender, and health status. Consuming a diverse and balanced diet typically provides sufficient vitamins.</string>
+    <string name="vitamin_take">How to Take Vitamins?</string>
+    <string name="vitamin_take1">Obtain vitamins from a variety of food sources, including fruits, vegetables, dairy products, lean meats, and fortified foods. In some cases, supplements may be recommended, especially for individuals with specific deficiencies.\n\n\n\n</string>
+
+
+    <string name="minerals_what">What is Minerals?</string>
+    <string name="minerals_whatInfo">Minerals are inorganic elements essential for various bodily functions. They are classified as macrominerals (required in larger amounts) and trace minerals (needed in smaller amounts)</string>
+    <string name="minerals_does"> Minerals have diverse roles; for example, calcium is critical for bone health, iron is necessary for oxygen transport in the blood, potassium regulates nerve and muscle function, and zinc supports immune function.</string>
+    <string name="minerals_process">Minerals are absorbed during digestion and participate in physiological processes, acting as cofactors for enzymes and contributing to structural components.</string>
+    <string name="minerals_perday">Recommended daily allowances (RDAs) or adequate intakes (AIs) vary for each mineral. Individual needs depend on factors like age, gender, and health status.</string>
+    <string name="minerals_take"> Consume a variety of foods rich in minerals, such as dairy products, leafy greens, nuts, seeds, legumes, and lean meats. In some cases, supplements may be recommended under the guidance of a healthcare professional.\n\n\n\n</string>
+
+
+    <string name="water_what">What is Water?</string>
+    <string name="water_whatInfo">Water is a vital, tasteless, and odorless substance that is fundamental for life.</string>
+    \n
+    <string name="water_does">Water is essential for maintaining bodily functions, including temperature regulation, digestion, nutrient transport, and elimination of waste products.</string>
+    <string name="water_process">Water is absorbed through the digestive system and circulates in the bloodstream, facilitating various metabolic processes. It is excreted through urine, sweat, and respiration.</string>
+    <string name="water_perday">Adequate daily intake varies, influenced by factors such as climate, physical activity, and individual health. A general guideline is to drink about 8 cups (64 ounces) or more per day.</string>
+    <string name="water_take">Consume water from various sources, including beverages and water-rich foods. Thirst is a natural indicator of hydration needs. Individual requirements may vary, so adjust intake based on factors like climate and activity level.\n\n\n\n</string>
+
+
+    <string name="fiber_what">What is Dietary Fiber?</string>
+    <string name="fiber_whatInfo">Dietary fiber consists of non-digestible carbohydrates found in plant foods.</string>
+    <string name="fiber_does">Fiber promotes digestive health, helps prevent constipation, and may contribute to weight management by promoting a feeling of fullness.</string>
+    <string name="fiber_process">Fiber remains largely intact during digestion, adding bulk to the stool and promoting regular bowel movements. Some types of fiber can also be fermented by gut bacteria.</string>
+    <string name="fiber_perday">Recommended daily intake varies, but a general guideline is around 25 grams for adult women and 38 grams for adult men.</string>
+    <string name="fiber_take">Include a variety of fiber-rich foods in your diet, such as whole grains, fruits, vegetables, legumes, and nuts. Gradually increase fiber intake to avoid digestive discomfort.\n\n\n\n</string>
+
+
+    <string name="antioxidants_what">What are Antioxidants?</string>
+    <string name="antioxidants_whatInfo">Antioxidants are compounds that help neutralize free radicals, reducing oxidative stress and inflammation in the body.</string>
+    <string name="antioxidants_does">By preventing or repairing cell damage caused by free radicals, antioxidants contribute to overall health and may reduce the risk of chronic diseases.</string>
+    <string name="antioxidants_process">Antioxidants are obtained from various foods and supplements. They work by donating electrons to stabilize free radicals, thereby reducing cellular damage.</string>
+    <string name="antioxidants_perday">There is no specific daily recommendation for antioxidants, but a varied and colorful diet rich in fruits and vegetables provides a broad spectrum of these compounds.</string>
+    <string name="antioxidants_take">Consume a diverse array of colorful fruits and vegetables, as well as nuts, seeds, and whole grains. Supplements may be considered in certain cases, but a balanced diet is generally the preferred source.\n\n\n\n</string>
+
+
+    <string name="probiotics_what">What are Probiotics?</string>
+    <string name="probiotics_whatInfo">Probiotics are live microorganisms that confer health benefits, particularly to the digestive system.</string>
+    <string name="probiotics_does">Probiotics help maintain a healthy balance of gut bacteria, supporting digestion and overall gut health. They may also have immune-modulating effects.</string>
+    <string name="probiotics_process">Probiotics, when consumed, reach the gut and interact with the existing microbial community, influencing the balance of beneficial bacteria.</string>
+    <string name="probiotics_perday">There is no specific daily requirement for probiotics, but regular consumption of probiotic-rich foods can contribute to gut health.</string>
+    <string name="probiotics_take">Include fermented foods such as yogurt, kefir, sauerkraut, and kimchi in your diet. Probiotic supplements may be considered, especially after antibiotic use or for individuals with specific digestive issues.\n\n\n\n</string>
+
+
+    <string name="prebiotics_what">What are Prebiotics?</string>
+    <string name="prebiotics_whatInfo">Prebiotics are non-digestible fibers that promote the growth of beneficial gut bacteria.</string>
+    <string name="prebiotics_does">By serving as food for probiotics, prebiotics support the growth and activity of beneficial bacteria in the gut.</string>
+    <string name="prebiotics_process">Prebiotics pass undigested through the upper gastrointestinal tract and reach the colon, where they are fermented by gut bacteria.</string>
+    <string name="prebiotics_perday">There is no specific daily requirement for prebiotics, but including a variety of prebiotic-rich foods can contribute to gut health.</string>
+    <string name="prebiotics_take">Consume foods rich in prebiotics, such as garlic, onions, leeks, bananas, whole grains, and certain vegetables. A diverse and fiber-rich diet supports both prebiotic and probiotic functions.\n\n\n\n</string>
+
+
+    <string name="efas_what">What are Essential Fatty Acids?</string>
+    <string name="efas_whatInfo">Essential fatty acids include omega-3 and omega-6 fatty acids, which the body cannot produce and must be obtained from the diet.</string>
+    <string name="efas_does">Omega-3 and omega-6 fatty acids are critical for brain function, cardiovascular health, and reducing inflammation in the body.</string>
+    <string name="efas_process">These fatty acids are incorporated into cell membranes and serve as precursors for the production of important signaling molecules.</string>
+    <string name="efas_perday">While there is no specific daily requirement, a balanced intake of omega-3 and omega-6 fatty acids is essential. The recommended ratio is generally 1:4 (omega-3 to omega-6).</string>
+    <string name="efas_take">Include fatty fish (such as salmon and mackerel), flaxseeds, chia seeds, walnuts, and certain oils (like flaxseed oil and walnut oil) in your diet. Aim for a balanced intake of omega-3 and omega-6 sources.\n\n\n\n</string>
+
+
+    <string name="calories_what">What are Calories?</string>
+    <string name="calories_whatInfo">Calories are a unit of measurement for the energy content of food. They represent the amount of energy released when the body breaks down and processes the nutrients in food.</string>
+    <string name="calories_does">Calories provide the energy necessary for various bodily functions, including metabolism, physical activity, and the maintenance of basic physiological processes.</string>
+    <string name="calories_process">During digestion, carbohydrates, proteins, and fats are broken down to release energy, measured in calories. The body utilizes this energy for immediate needs or stores it for future use.</string>
+    <string name="calories_perday">The recommended daily caloric intake varies based on factors such as age, gender, activity level, and health goals. Its essential to balance calorie intake with energy expenditure for overall well-being.</string>
+    <string name="calories_take">Make informed food choices to meet your caloric needs while prioritizing nutrient-dense foods for optimal health. Pay attention to portion sizes and be mindful of overall energy balance.\n\n\n\n</string>
+
+
+</resources>
