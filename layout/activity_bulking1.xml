@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bulking1"
+    android:background="@color/black">
+
+    <!-- Header View -->
+    <View
+        android:id="@+id/wl1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="@color/grey"></View>
+
+    <!-- Title TextView -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/fiterac"
+        android:textColor="@color/gold"
+        android:fontFamily="@font/lemon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:id="@+id/wlh"
+        />
+
+    <!-- Main Container -->
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="240dp"
+        android:background="@color/grey"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        />
+
+    <!-- Current Weight TextView and EditText -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="->  Current Weight :"
+        android:layout_below="@+id/wl1"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/coper"
+        android:textColor="@color/gold"
+        android:textSize="17dp"
+        android:id="@+id/cw"
+        />
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/wl1"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="84dp"
+        android:textColor="@color/gold"
+        android:backgroundTint="@color/gold"
+        android:id="@+id/fe"
+        />
+
+    <!-- Target Weight TextView and EditText -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="->  Target Weight :"
+        android:layout_below="@+id/cw"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/coper"
+        android:textColor="@color/gold"
+        android:textSize="17dp"
+        android:id="@+id/tw"
+        />
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/fe"
+        android:layout_marginLeft="230dp"
+        android:textColor="@color/gold"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/gold"
+        android:id="@+id/se"
+        />
+
+    <!-- Submit Button -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tw"
+        android:layout_marginTop="35dp"
+        android:text="Submit"
+        android:fontFamily="@font/lemon"
+        android:textColor="@color/white"
+        android:backgroundTint="#124C88"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/sub"
+        />
+</RelativeLayout>

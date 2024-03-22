@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lgreen"
+    android:fillViewport="true"
+    android:overScrollMode="never"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+        <include layout="@layout/cardiocard"
+            android:id="@+id/car1"/>
+        <include layout="@layout/cardiocard"
+            android:id="@+id/car2"/>
+        <include layout="@layout/cardiocard"
+            android:id="@+id/car3"/>
+        <include layout="@layout/cardiocard"
+            android:id="@+id/car4"/>
+        <include layout="@layout/cardiocard"
+            android:id="@+id/car5"/>
+        <include layout="@layout/cardiocard"
+            android:id="@+id/car6"/>
+        <include layout="@layout/cardiocard"
+            android:id="@+id/car7"/>
+        <include layout="@layout/cardiocard"
+            android:id="@+id/car8"/>
+        <include layout="@layout/cardiocard"
+            android:id="@+id/car9"/>
+        <include layout="@layout/cardiocard"
+            android:id="@+id/car10"/>
+
+
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

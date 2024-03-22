@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homecal"
+    android:background="@color/black">
+    <View
+        android:id="@+id/ch1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="@color/grey"></View>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/fiterac"
+        android:textColor="@color/gold"
+        android:fontFamily="@font/raino"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:id="@+id/hb1"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/hb1"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="35dp"
+        android:text="For Weight loss"
+        android:fontFamily="@font/lemon"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/grey"
+        android:id="@+id/wl"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/wl"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="35dp"
+        android:textColor="@color/white"
+        android:text="For Weight gain"
+        android:fontFamily="@font/lemon"
+        android:backgroundTint="@color/grey"
+        android:id="@+id/wg"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/hb1"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="230dp"
+        android:textColor="@color/white"
+        android:text="For cutting"
+        android:fontFamily="@font/lemon"
+        android:backgroundTint="@color/grey"
+        android:id="@+id/cu"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/cu"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="230dp"
+        android:textColor="@color/white"
+        android:text="For bulking"
+        android:fontFamily="@font/lemon"
+        android:backgroundTint="@color/grey"
+        android:id="@+id/ba"
+        />
+
+
+
+</RelativeLayout>

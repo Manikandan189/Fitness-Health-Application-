@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cutting2"
+    android:background="@color/black">
+
+    <!-- Header View -->
+    <View
+        android:id="@+id/wl2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="@color/grey"></View>
+
+    <!-- Title TextView -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/fiterac"
+        android:textColor="@color/gold"
+        android:fontFamily="@font/lemon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:id="@+id/wllh"
+        />
+
+    <!-- Main Container -->
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/grey"
+        android:layout_below="@id/wllh"
+        android:layout_marginTop="60dp"
+        android:layout_centerInParent="true"
+        android:text="2068"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/lemon"
+        android:id="@+id/cal"
+        />
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/grey"
+        android:layout_below="@id/cal"
+        android:layout_marginTop="70dp"
+        android:layout_centerInParent="true"
+        android:text="140"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/lemon"
+        android:id="@+id/pro"
+        />
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/grey"
+        android:layout_below="@id/pro"
+        android:layout_marginTop="70dp"
+        android:layout_centerInParent="true"
+        android:text="60"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/lemon"
+        android:id="@+id/day"
+        />
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/grey"
+        android:layout_below="@id/day"
+        android:layout_marginTop="70dp"
+        android:layout_centerInParent="true"
+        android:text="1800"
+        android:textSize="40dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/lemon"
+        android:id="@+id/main"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/wllh"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:text="calorie Deficit:"
+        android:textSize="19dp"
+        android:fontFamily="@font/lemon"
+        android:textColor="@color/gold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/cal"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="20dp"
+        android:text="Protein Intake :"
+        android:textSize="19dp"
+        android:fontFamily="@font/lemon"
+        android:textColor="@color/gold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/pro"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="20dp"
+        android:text="No of days to achieve:"
+        android:textSize="19dp"
+        android:fontFamily="@font/lemon"
+        android:textColor="@color/gold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/day"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="20dp"
+        android:text="Maintainace calorie"
+        android:textSize="19dp"
+        android:fontFamily="@font/lemon"
+        android:textColor="@color/gold"
+        />
+
+
+</RelativeLayout>

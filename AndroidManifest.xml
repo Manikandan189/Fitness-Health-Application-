@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/fitera"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/fitera_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FitEra"
+        tools:targetApi="31">
+        <activity
+            android:name=".frag2"
+            android:exported="false" />
+        <activity
+            android:name=".frag1"
+            android:exported="false" />
+        <activity
+            android:name=".nutrical1"
+            android:exported="false" />
+        <activity
+            android:name=".nurifatty1"
+            android:exported="false" />
+        <activity
+            android:name=".nutripre1"
+            android:exported="false" />
+        <activity
+            android:name=".nutripro1"
+            android:exported="false" />
+        <activity
+            android:name=".nutianti1"
+            android:exported="false" />
+        <activity
+            android:name=".nutridietry1"
+            android:exported="false" />
+        <activity
+            android:name=".nutriwater1"
+            android:exported="false" />
+        <activity
+            android:name=".nutriminerals1"
+            android:exported="false" />
+        <activity
+            android:name=".nutrivitamin1"
+            android:exported="false" />
+        <activity
+            android:name=".nutrifat1"
+            android:exported="false" />
+        <activity
+            android:name=".nutriprotein1"
+            android:exported="false" />
+        <activity
+            android:name=".nutricarb1"
+            android:exported="false" />
+        <activity
+            android:name=".nutri1"
+            android:exported="false" />
+        <activity
+            android:name=".strutch"
+            android:exported="false" />
+        <activity
+            android:name=".cardiofinal1"
+            android:exported="false" />
+        <activity
+            android:name=".foodwat1"
+            android:exported="false" />
+        <activity
+            android:name=".foodcarb1"
+            android:exported="false" />
+        <activity
+            android:name=".foodfat1"
+            android:exported="false" />
+        <activity
+            android:name=".foodfib1"
+            android:exported="false" />
+        <activity
+            android:name=".foodprot1"
+            android:exported="false"
+            android:label="@string/title_activity_foodprot1"
+            android:theme="@style/Theme.FitEra.NoActionBar" />
+        <activity
+            android:name=".foodhome"
+            android:exported="false" />
+        <activity
+            android:name=".bulking2"
+            android:exported="false" />
+        <activity
+            android:name=".bulking1"
+            android:exported="false" />
+        <activity
+            android:name=".cutting2"
+            android:exported="false" />
+        <activity
+            android:name=".cutting1"
+            android:exported="false" />
+        <activity
+            android:name=".weightgain2"
+            android:exported="false" />
+        <activity
+            android:name=".weightgain1"
+            android:exported="false" />
+        <activity
+            android:name=".weightloss2"
+            android:exported="false" />
+        <activity
+            android:name=".weightloss1"
+            android:exported="false" />
+        <activity
+            android:name=".homecal"
+            android:exported="false" />
+        <activity
+            android:name=".legs1"
+            android:exported="false"
+            android:label="@string/title_activity_legs1"
+            android:theme="@style/Theme.FitEra.NoActionBar" />
+        <activity
+            android:name=".abs1"
+            android:exported="false"
+            android:label="@string/title_activity_abs1"
+            android:theme="@style/Theme.FitEra.NoActionBar" />
+        <activity
+            android:name=".forearms1"
+            android:exported="false"
+            android:label="@string/title_activity_forearms1"
+            android:theme="@style/Theme.FitEra.NoActionBar" />
+        <activity
+            android:name=".triceps1"
+            android:exported="false"
+            android:label="@string/title_activity_triceps1"
+            android:theme="@style/Theme.FitEra.NoActionBar" />
+        <activity
+            android:name=".biceps1"
+            android:exported="false"
+            android:label="@string/title_activity_biceps1"
+            android:theme="@style/Theme.FitEra.NoActionBar" />
+        <activity
+            android:name=".back1"
+            android:exported="false"
+            android:label="@string/title_activity_back1"
+            android:theme="@style/Theme.FitEra.NoActionBar" />
+        <activity
+            android:name=".shoulder"
+            android:exported="false"
+            android:label="@string/title_activity_shoulder"
+            android:theme="@style/Theme.FitEra.NoActionBar" />
+        <activity
+            android:name=".cheast"
+            android:exported="false"
+            android:label="@string/title_activity_cheast"
+            android:theme="@style/Theme.FitEra.NoActionBar" />
+        <activity
+            android:name=".sche"
+            android:exported="false" />
+        <activity
+            android:name=".f1"
+            android:exported="true"> <!-- Change to true if you want to launch it from outside the app -->
+        </activity>
+        <activity
+            android:name=".home"
+            android:exported="true"> <!-- Change to true if you want to launch it from outside the app -->
+        </activity>
+        <activity
+            android:name=".quote"
+            android:exported="true"> <!-- Change to true if you want to launch it from outside the app -->
+        </activity>
+        <activity
+            android:name=".splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"> <!-- Change to true if you want to launch it from outside the app -->
+        </activity>
+    </application>
+
+</manifest>

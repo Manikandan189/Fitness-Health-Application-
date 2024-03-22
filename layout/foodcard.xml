@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_marginTop="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chicken Breast :"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="22dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/lemon"
+        android:textColor="@color/black"
+        android:id="@+id/headf"
+        />
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="180dp"
+        android:layout_below="@+id/headf"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imagef"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/benifit"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="22dp"
+        android:textSize="17dp"
+        android:layout_below="@+id/imagef"
+        android:textColor="@color/black"
+        android:fontFamily="@font/lemon"
+        android:id="@+id/subf1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:text="  "
+        android:layout_below="@+id/subf1"
+        android:textSize="17dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:id="@+id/subf1d"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/how"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="22dp"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/subf1d"
+        android:fontFamily="@font/lemon"
+        android:id="@+id/subf2"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:text=""
+        android:layout_below="@+id/subf2"
+        android:textSize="17dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:id="@+id/subf2d"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nutri"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="22dp"
+        android:textSize="17dp"
+        android:layout_below="@+id/subf2d"
+        android:textColor="@color/black"
+        android:fontFamily="@font/lemon"
+        android:id="@+id/subf3"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:text=" "
+        android:layout_below="@+id/subf3"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/subf3d"
+        />
+
+
+
+
+</RelativeLayout>

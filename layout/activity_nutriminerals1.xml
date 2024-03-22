@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lgreen"
+    android:fillViewport="true"
+    android:overScrollMode="never"
+    android:scrollbars="vertical"
+    tools:context=".nutriminerals1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/headn"
+            android:text="@string/what"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/lemon"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:text="  "
+            android:layout_below="@+id/headn"
+            android:textSize="15dp"
+            android:layout_marginTop="13dp"
+            android:textColor="@color/black"
+            android:id="@+id/head1n"
+            />
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="180dp"
+            android:layout_below="@+id/head1n"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:id="@+id/imagen"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:text="@string/does"
+            android:layout_below="@+id/imagen"
+            android:textSize="15dp"
+            android:fontFamily="@font/lemon"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/black"
+            android:id="@+id/doesn"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:text="  "
+            android:layout_below="@+id/doesn"
+            android:textSize="15dp"
+            android:layout_marginTop="13dp"
+            android:textColor="@color/black"
+            android:id="@+id/does1n"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:text="@string/processed"
+            android:layout_below="@+id/does1n"
+            android:textSize="15dp"
+            android:fontFamily="@font/lemon"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/black"
+            android:id="@+id/processn"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:text="  "
+            android:layout_below="@+id/processn"
+            android:textSize="15dp"
+            android:layout_marginTop="13dp"
+            android:textColor="@color/black"
+            android:id="@+id/process1n"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:text="@string/per"
+            android:layout_below="@+id/process1n"
+            android:textSize="15dp"
+            android:fontFamily="@font/lemon"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/black"
+            android:id="@+id/dayn"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:text="  "
+            android:layout_below="@+id/dayn"
+            android:textSize="15dp"
+            android:layout_marginTop="13dp"
+            android:textColor="@color/black"
+            android:id="@+id/day1n"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:text="@string/take"
+            android:layout_below="@+id/day1n"
+            android:textSize="15dp"
+            android:fontFamily="@font/lemon"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/black"
+            android:id="@+id/taken"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:text="  "
+            android:layout_below="@+id/taken"
+            android:textSize="15dp"
+            android:layout_marginTop="13dp"
+            android:textColor="@color/black"
+            android:id="@+id/take1n"
+            />
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>

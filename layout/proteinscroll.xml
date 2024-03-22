@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lgreen"
+    android:fillViewport="true"
+    android:overScrollMode="never"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+        <include layout="@layout/foodcard"
+            android:id="@+id/fc1"/>
+        <include layout="@layout/foodcard"
+            android:id="@+id/fc2"
+            />
+        <include layout="@layout/foodcard"
+            android:id="@+id/fc3"/>
+        <include layout="@layout/foodcard"
+            android:id="@+id/fc4"/>
+        <include layout="@layout/foodcard"
+            android:id="@+id/fc5"/>
+        <include layout="@layout/foodcard"
+            android:id="@+id/fc6"/>
+        <include layout="@layout/foodcard"
+            android:id="@+id/fc7"/>
+        <include layout="@layout/foodcard"
+            android:id="@+id/fc8"/>
+        <include layout="@layout/foodcard"
+            android:id="@+id/fc9"/>
+        <include layout="@layout/foodcard"
+            android:id="@+id/fc10"/>
+
+
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

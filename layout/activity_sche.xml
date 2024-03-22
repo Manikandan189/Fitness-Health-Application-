@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".sche"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="0dp">
+        <View
+            android:id="@+id/hb"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@color/grey"></View>
+
+        <!-- Your content below (in the bottom half of the screen) -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="workouts"
+            android:fontFamily="@font/raino"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:textColor="@color/gold"
+            android:layout_marginTop="9dp"
+            android:padding="10dp"
+            android:id="@+id/half"
+            />
+
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sbc"
+            android:text="@string/ch"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/grey"
+            android:fontFamily="@font/lemon"
+            android:layout_marginTop="80dp"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="25dp" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sbc"
+            android:text="@string/sh"
+            android:backgroundTint="@color/grey"
+            android:fontFamily="@font/lemon"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:id="@+id/sbs"
+            android:layout_marginBottom="25dp" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sbs"
+            android:text="@string/ba"
+            android:backgroundTint="@color/grey"
+            android:fontFamily="@font/lemon"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:id="@+id/sbb"
+            android:layout_marginBottom="25dp" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/bi"
+            android:backgroundTint="@color/grey"
+            android:fontFamily="@font/lemon"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_below="@+id/sbb"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/sb2"
+            android:layout_marginBottom="25dp" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tr"
+            android:backgroundTint="@color/grey"
+            android:fontFamily="@font/lemon"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:id="@+id/sbt"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/sb2"
+            android:layout_marginBottom="25dp" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/fo"
+            android:backgroundTint="@color/grey"
+            android:fontFamily="@font/lemon"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:id="@+id/sbf"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/sbt"
+            android:layout_marginBottom="25dp" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ab"
+            android:backgroundTint="@color/grey"
+            android:fontFamily="@font/lemon"
+            android:textSize="18sp"
+            android:layout_below="@+id/sbf"
+            android:textColor="@color/white"
+            android:id="@+id/sba"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="25dp" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/le"
+            android:backgroundTint="@color/grey"
+            android:fontFamily="@font/lemon"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:id="@+id/sbl"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/sba"
+            android:layout_marginBottom="25dp" />
+
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>
